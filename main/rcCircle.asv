@@ -1,0 +1,3 @@
+function ydot=rcCircle(t, y) %Function-name: rcCircle
+global RC  
+ydot = (-y)/(RC)             %First-order Differential Equation: dy/dt = (-y)/(RC)
